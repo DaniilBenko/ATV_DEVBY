@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <listeners>
+        <listener class-name="test.TestListener"/>
+    </listeners>
+
+    <test name="AndroidTests" >
+        <classes>
+            <class name="test.LoginTest" />
+            <class name="test.MenuColorTest" />
+        </classes>
+    </test>
+
+</suite>
